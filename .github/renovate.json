@@ -19,13 +19,6 @@
     {
       "matchManagers": ["puppet"],
       "matchDepPatterns": [
-        "gitlab\\.com[:/]hitchhikers/puppet-modules/camptocamp-systemd(?:\\.git)?$"
-      ],
-      "customChangelogUrl": ["https://github.com/camptocamp/puppet-systemd"]
-    },
-    {
-      "matchManagers": ["puppet"],
-      "matchDepPatterns": [
         "gitlab\\.com[:/]hitchhikers/puppet-modules/voxpupuli-systemd(?:\\.git)?$"
       ],
       "customChangelogUrl": ["https://github.com/voxpupuli/puppet-systemd"]

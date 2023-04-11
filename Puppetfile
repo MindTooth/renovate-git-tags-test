@@ -6,7 +6,7 @@ mod 'logrotate',
   :tag => 'v6.0.0'
 
 mod 'camptocamp-systemd',
-  :git => 'git@gitlab.com:hitchhikers/puppet-modules/camptocamp-systemd.git',
+  :git => 'https://gitlab.com/hitchhikers/puppet-modules/camptocamp-systemd',
   :tag => 'v4.0.1'
 
 mod 'systemd',

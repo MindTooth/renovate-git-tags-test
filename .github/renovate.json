@@ -5,6 +5,13 @@
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": [
+        "gitlab\\.com[:/]hitchhikers/puppet-modules/puppetlabs-apache(?:\\.git)?$"
+      ],
+      "customChangelogUrl": ["https://github.com/puppetlabs/puppetlabs-apache"]
+    },
+    {
+      "matchManagers": ["puppet"],
+      "matchPackagePatterns": [
         "gitlab\\.com[:/]hitchhikers/puppet-modules/voxpupuli-logrotate(?:\\.git)?$"
       ],
       "customChangelogUrl": ["https://github.com/voxpupuli/puppet-logrotate"]

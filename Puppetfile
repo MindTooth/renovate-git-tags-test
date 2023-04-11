@@ -6,7 +6,7 @@ mod 'apache',
   :tag => 'v6.0.0'
 
 mod 'logrotate',
-  :git => 'https://gitlab.com/hitchhikers/puppet-modules/voxpupuli-logrotate.git',
+  :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-logrotate.git',
   :tag => 'v6.0.0'
 
 mod 'camptocamp-systemd',

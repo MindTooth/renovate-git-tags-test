@@ -28,3 +28,7 @@ mod 'camptocamp-systemd',
 mod 'systemd',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-systemd.git',
   :tag => 'v4.0.1'
+
+mod '2kj3k2j3j2k3j23',
+  :git => 'git@gitlab.com:hitchhikers/puppet-modules/23kl4j2kl3j4lk2j34.git',
+  :tag => 'v6.0.0'

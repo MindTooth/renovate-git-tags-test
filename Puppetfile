@@ -23,7 +23,7 @@ mod 'puppetlabs-stdlib',
 
 mod 'camptocamp-systemd',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/camptocamp-systemd',
-  :tag => 'v4.0.1'
+  :tag => 'v4.1.0'
 
 mod 'systemd',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-systemd.git',

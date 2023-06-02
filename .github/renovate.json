@@ -19,7 +19,7 @@
     },
     {
       "matchManagers": ["puppet"],
-      "matchPackagePatterns": ["logrotate(?:\\.git)?"],
+      "matchPackagePatterns": ["voxpupuli-logrotate(?:\\.git)?"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate"
     },
     {

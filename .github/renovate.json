@@ -24,6 +24,11 @@
     },
     {
       "matchManagers": ["puppet"],
+      "matchDepPatterns": ["voxpupuli-logrotate(?:\\.git)?"],
+      "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate"
+    },
+    {
+      "matchManagers": ["puppet"],
       "matchPackagePatterns": [
         "gitlab\\.com[:/]hitchhikers/puppet-modules/camptocamp-systemd(?:\\.git)?"
       ],

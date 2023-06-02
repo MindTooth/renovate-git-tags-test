@@ -7,7 +7,7 @@ mod 'apache',
 
 mod 'logrotate',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-logrotate.git',
-  :tag => 'v6.0.0'
+  :tag => 'v6.1.0'
 
 mod 'docker',
   :git => 'git@github.com:puppetlabs/puppetlabs-docker.git',

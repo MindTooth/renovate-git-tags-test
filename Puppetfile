@@ -20,3 +20,7 @@ mod 'systemd',
 mod 'puppetlabs-stdlib',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/puppetlabs-stdlib.git',
   :tag => 'v4.0.1'
+
+mod 'docker',
+  :git => 'git@github.com:puppetlabs/puppetlabs-docker.git',
+  :tag => 'v6.1.0'

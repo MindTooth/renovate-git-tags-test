@@ -37,6 +37,13 @@
         "gitlab\\.com[:/]hitchhikers/puppet-modules/voxpupuli-systemd(?:\\.git)?"
       ],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-systemd"
+    },
+    {
+      "matchManagers": ["puppet"],
+      "matchPackagePatterns": [
+        "gitlab\\.com[:/]hitchhikers/puppet-modules/23kl4j2kl3j4lk2j34(?:\\.git)?"
+      ],
+      "customChangelogUrl": "https://github.com/voxpupuli/puppet-rabbitmq"
     }
   ]
 }

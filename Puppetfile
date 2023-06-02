@@ -11,7 +11,7 @@ mod 'logrotate',
 
 mod 'docker',
   :git => 'git@github.com:puppetlabs/puppetlabs-docker.git',
-  :tag => 'v6.1.0'
+  :tag => 'v7.0.0'
 
 mod 'lvm',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/puppetlabs-lvm.git',

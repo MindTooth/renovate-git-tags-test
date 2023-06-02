@@ -15,7 +15,7 @@ mod 'docker',
 
 mod 'lvm',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/puppetlabs-lvm.git',
-  :tag => 'v1.4.0'
+  :tag => 'v2.0.0'
 
 mod 'puppetlabs-stdlib',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/puppetlabs-stdlib.git',

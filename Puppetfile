@@ -9,6 +9,18 @@ mod 'logrotate',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-logrotate.git',
   :tag => 'v6.0.0'
 
+mod 'docker',
+  :git => 'git@github.com:puppetlabs/puppetlabs-docker.git',
+  :tag => 'v6.1.0'
+
+mod 'lvm',
+  :git => 'https://gitlab.com/hitchhikers/puppet-modules/puppetlabs-lvm.git',
+  :tag => 'v1.4.0'
+
+mod 'puppetlabs-stdlib',
+  :git => 'git@gitlab.com:hitchhikers/puppet-modules/puppetlabs-stdlib.git',
+  :tag => 'v4.0.1'
+
 mod 'camptocamp-systemd',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/camptocamp-systemd',
   :tag => 'v4.0.1'
@@ -16,11 +28,3 @@ mod 'camptocamp-systemd',
 mod 'systemd',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-systemd.git',
   :tag => 'v4.0.1'
-
-mod 'puppetlabs-stdlib',
-  :git => 'git@gitlab.com:hitchhikers/puppet-modules/puppetlabs-stdlib.git',
-  :tag => 'v4.0.1'
-
-mod 'docker',
-  :git => 'git@github.com:puppetlabs/puppetlabs-docker.git',
-  :tag => 'v6.1.0'

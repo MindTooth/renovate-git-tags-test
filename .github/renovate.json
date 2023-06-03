@@ -30,7 +30,7 @@
       "matchDepPatterns": ["logrotate"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate",
       "prBodyDefinitions": {
-        "Package": "[logrotate]({{{ encodeURIComponent github.com/voxpupuli/puppet-logrotate }}})"
+        "Package": "[{{{ packageName }}}](https://github.com/voxpupuli/puppet-logrotate)\\n{{{ depName }}}"
       }
     },
 

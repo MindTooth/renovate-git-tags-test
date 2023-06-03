@@ -27,7 +27,7 @@
 
     {
       "matchManagers": ["puppet"],
-      "matchPackagePatterns": ["voxpupuli-logrotate"],
+      "matchPackageNames": ["voxpupuli-logrotate"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate",
       "prBodyDefinitions": {
         "Package": "[{{{ depName ](https://github.com/voxpupuli/puppet-logrotate)"

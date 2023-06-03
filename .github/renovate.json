@@ -9,6 +9,7 @@
       }
     }
   ],
+
   "packageRules": [
     {
       "matchManagers": ["puppet"],
@@ -17,16 +18,19 @@
       ],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-apache"
     },
+
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": ["voxpupuli-logrotate(?:\\.git)?"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate"
     },
+
     {
       "matchManagers": ["puppet"],
       "matchDepPatterns": ["voxpupuli-logrotate(?:\\.git)?"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate"
     },
+
     {
       "matchManagers": ["puppet"],
       "matchPackageNames": [
@@ -49,6 +53,7 @@
       ],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-systemd"
     },
+
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": [
@@ -56,6 +61,7 @@
       ],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-rabbitmq"
     },
+
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": ["2kj3k2j3j2k3j23"],

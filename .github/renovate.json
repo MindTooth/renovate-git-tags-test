@@ -27,10 +27,10 @@
 
     {
       "matchManagers": ["puppet"],
-      "matchDepPatterns": ["logrotate"],
+      "matchPackagePatterns": ["voxpupuli-logrotate"],
       "customChangelogUrl": "https://github.com/voxpupuli/puppet-logrotate",
       "prBodyDefinitions": {
-        "Package": "[{{{ packageName }}}](https://github.com/voxpupuli/puppet-logrotate)\\n{{{ depName }}}"
+        "Package": "[{{{ depName ](https://github.com/voxpupuli/puppet-logrotate)"
       }
     },
 

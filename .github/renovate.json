@@ -27,7 +27,8 @@
       "matchPackagePatterns": [
         "gitlab\\.com[:/]hitchhikers/puppet-modules/puppetlabs-apache(?:\\.git)?$"
       ],
-      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-apache"
+      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-apache",
+      "groupName": "apache"
     },
 
     {

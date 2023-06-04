@@ -10,6 +10,8 @@
     }
   ],
 
+  "enabledManagers": ["docker-compose", "dockerfile", "puppet"],
+
   "packageRules": [
     {
       "matchManagers": ["puppet"],
@@ -54,6 +56,12 @@
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": ["puppetlabs-stdlib"],
+      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    },
+
+    {
+      "matchManagers": ["puppet"],
+      "matchPackagePatterns": ["stdlib"],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
     },
 

@@ -56,9 +56,9 @@
 
     {
       "matchManagers": ["puppet"],
-      "matchPackagePatterns": ["puppet-modules\\/puppetlabs-stdlib"],
+      "matchPackagePatterns": ["puppetlabs-stdlib"],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git",
-      "groupName": "HelloWorld"
+      "Package": "[{{{ depName }}}](https://github.com/voxpupuli/puppet-logrotate)<br><br>[{{{ packageName }}}](https://github.com/voxpupuli/puppet-logrotate)"
     },
 
     {

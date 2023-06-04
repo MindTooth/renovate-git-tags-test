@@ -14,6 +14,15 @@
     {
       "matchManagers": ["puppet"],
       "matchPackagePatterns": [
+        "gitlab\\.com[:/]hitchhikers/puppet-modules/puppetlabs-apache(?:\\.git)?$",
+        "gitlab\\.com[:/]hitchhikers/puppet-modules/camptocamp-systemd(?:\\.git)?"
+      ],
+      "groupName": "Puppetfile"
+    },
+
+    {
+      "matchManagers": ["puppet"],
+      "matchPackagePatterns": [
         "gitlab\\.com[:/]hitchhikers/puppet-modules/puppetlabs-apache(?:\\.git)?$"
       ],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-apache"

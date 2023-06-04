@@ -56,7 +56,8 @@
     {
       "matchManagers": ["puppet"],
       "matchDepPatterns": ["stdlib"],
-      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git",
+      "groupName": "HelloWorld"
     },
 
     {

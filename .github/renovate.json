@@ -53,10 +53,7 @@
 
     {
       "matchManagers": ["puppet"],
-      "matchPackagePatterns": [
-        "puppetlabs-stdlib",
-        "gitlab\\.com[:/]hitchhikers/puppet-modules/puppetlabs-stdlib(?:\\.git)?"
-      ],
+      "matchPackagePatterns": ["puppetlabs-stdlib"],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
     },
 

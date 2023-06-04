@@ -55,6 +55,12 @@
 
     {
       "matchManagers": ["puppet"],
+      "matchPackageName": ["puppetlabs-stdlib"],
+      "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    },
+
+    {
+      "matchManagers": ["puppet"],
       "matchPackagePatterns": ["puppetlabs-stdlib"],
       "customChangelogUrl": "https://github.com/puppetlabs/puppetlabs-stdlib.git"
     },

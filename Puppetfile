@@ -31,4 +31,4 @@ mod 'systemd',
 
 mod '2kj3k2j3j2k3j23',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/23kl4j2kl3j4lk2j34.git',
-  :tag => 'v6.0.0'
+  :tag => 'v13.0.0'

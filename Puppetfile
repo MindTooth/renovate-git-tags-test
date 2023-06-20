@@ -19,7 +19,7 @@ mod 'lvm',
 
 mod 'puppetlabs-stdlib',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/puppetlabs-stdlib.git',
-  :tag => 'v4.0.1'
+  :tag => '4.25.1'
 
 mod 'camptocamp-systemd',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/camptocamp-systemd',

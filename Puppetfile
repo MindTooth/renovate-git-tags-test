@@ -3,7 +3,7 @@
 #
 mod 'apache',
   :git => 'https://gitlab.com/hitchhikers/puppet-modules/puppetlabs-apache.git',
-  :tag => 'v6.0.0'
+  :tag => 'v9.1.2'
 
 mod 'logrotate',
   :git => 'git@gitlab.com:hitchhikers/puppet-modules/voxpupuli-logrotate.git',
